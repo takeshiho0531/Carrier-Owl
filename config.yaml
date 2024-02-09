@@ -1,11 +1,15 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.AR OR cs.PF OR cs.PL'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        architecture: 3
+        processor: 3
+        hardware: 3
+        chip: 2
+        asic: 2
+        fpga: 2
+        gpu: 2
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 3
